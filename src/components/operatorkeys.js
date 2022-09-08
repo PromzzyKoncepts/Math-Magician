@@ -9,7 +9,7 @@ class OperatorKeys extends Component {
   render() {
     return (
       <>
-        <button type="button" className="btn btn-top">AC</button>
+        <button type="button" className="btn btn-top" onClick={() => alert('Hi Promise,')}>AC</button>
         <button type="button" className="btn btn-top">+/-</button>
         <button type="button" className="btn btn-top">%</button>
         <button type="button" className="btn btn-side">/</button>
