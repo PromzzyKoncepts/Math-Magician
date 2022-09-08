@@ -1,25 +1,28 @@
+/*eslint-disable*/
+
 import { Component } from 'react';
 
 class NumberKeys extends Component {
-  constructor() {
-    super();
-    this.state = {};
+  constructor(props) {
+    super(props);
+    // this.state = {};
   }
 
   render() {
+    const { handleClick } = this.props;
     return (
       <div className="numbers">
-        <button type="button" className="btn btn-primary">7</button>
-        <button type="button" className="btn btn-primary">8</button>
-        <button type="button" className="btn btn-primary">9</button>
-        <button type="button" className="btn btn-primary">4</button>
-        <button type="button" className="btn btn-primary">5</button>
-        <button type="button" className="btn btn-primary">6</button>
-        <button type="button" className="btn btn-primary">1</button>
-        <button type="button" className="btn btn-primary">2</button>
-        <button type="button" className="btn btn-primary">3</button>
-        <button type="button" className="btn btn-primary col-span-2">0</button>
-        <button type="button" className="btn btn-primary">.</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>7</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>8</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>9</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>4</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>5</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>6</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>1</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>2</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>3</button>
+        <button type="button" className="btn btn-primary col-span-2" onClick={handleClick}>0</button>
+        <button type="button" className="btn btn-primary" onClick={handleClick}>.</button>
       </div>
     );
   }
