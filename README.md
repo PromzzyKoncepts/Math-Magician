@@ -14,7 +14,7 @@
 
 [Live Demo Link](https://promzzykoncepts.github.io/Math-Magician/)
 
-<img src = "./Math-magician-react" alt="Calculator" width="300px">.
+<img src = "./Math-magician-react.png" alt="Calculator" width="300px"/>.
 
 ## Getting Started
 
