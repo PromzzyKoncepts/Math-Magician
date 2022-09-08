@@ -1,15 +1,20 @@
+/*eslint-disable*/
 import { Component } from 'react';
 
 class DisplayScreen extends Component {
-  constructor() {
-    super();
-    this.state = {};
+  constructor(props) {
+    super(props);
   }
 
   render() {
+    const { total, next, operation } = this.props;
     return (
       <div className="displayscreen-cont">
-        <input type="text" className="display-screen" />
+        <span className="display-screen">
+        {total}
+          {operation}
+          {next}
+           </span>
       </div>
     );
   }

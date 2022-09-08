@@ -1,22 +1,23 @@
+/*eslint-disable*/
 import { Component } from 'react';
 
 class OperatorKeys extends Component {
-  constructor() {
-    super();
-    this.state = {};
+  constructor(props) {
+    super(props);
   }
 
   render() {
+    const { handleClick } = this.props;
     return (
       <>
-        <button type="button" className="btn btn-top" onClick={() => alert('Hi Promise,')}>AC</button>
-        <button type="button" className="btn btn-top">+/-</button>
-        <button type="button" className="btn btn-top">%</button>
-        <button type="button" className="btn btn-side">/</button>
-        <button type="button" className="btn btn-side">x</button>
-        <button type="button" className="btn btn-side">-</button>
-        <button type="button" className="btn btn-side">+</button>
-        <button type="button" className="btn btn-side">=</button>
+        <button type="button" className="btn btn-top" onClick={handleClick}>AC</button>
+        <button type="button" className="btn btn-top" onClick={handleClick}>+/-</button>
+        <button type="button" className="btn btn-top" onClick={handleClick}>%</button>
+        <button type="button" className="btn btn-side" onClick={handleClick}>÷</button>
+        <button type="button" className="btn btn-side" onClick={handleClick}>x</button>
+        <button type="button" className="btn btn-side" onClick={handleClick}>-</button>
+        <button type="button" className="btn btn-side" onClick={handleClick}>+</button>
+        <button type="button" className="btn btn-side" onClick={handleClick}>=</button>
       </>
     );
   }
