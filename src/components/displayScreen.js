@@ -1,13 +1,8 @@
 /*eslint-disable*/
-import { Component } from 'react';
+import React from 'react';
 
-class DisplayScreen extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    const { total, next, operation } = this.props;
+const DisplayScreen = (props) => {
+    const { total, next, operation } = props;
     return (
       <div className="displayscreen-cont">
         <span className="display-screen">
@@ -18,5 +13,5 @@ class DisplayScreen extends Component {
       </div>
     );
   }
-}
+
 export default DisplayScreen;
