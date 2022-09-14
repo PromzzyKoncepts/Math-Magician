@@ -89,10 +89,10 @@ html {
 
 .nav-container {
   padding: 20px;
-  background-color: #424C52;
+  background-color: #424c52;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 0 8px #424C52;
+  box-shadow: 0 0 8px #424c52;
 }
 
 ul {
@@ -108,6 +108,5 @@ ul {
 
 .link a:hover {
   text-decoration: none;
-  color: #F5913E;
+  color: #f5913e;
 }
-
