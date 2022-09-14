@@ -20,7 +20,7 @@ html {
 
 .calc-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 5rem auto;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: repeat(6, minmax(0, 1fr));
@@ -28,8 +28,8 @@ html {
   border-radius: 10px;
   overflow: hidden;
   box-shadow:
-    0 3px 6px 0 rgba(0, 0, 0, 0.15),
-    0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    0 3px 8px 0 rgba(0, 0, 0, 0.15),
+    0 2px 6px 0 rgba(0, 0, 0, 0.12);
 }
 
 .displayscreen-cont {
@@ -86,3 +86,28 @@ html {
 .col-span-2 {
   grid-column: 1 / 3;
 }
+
+.nav-container {
+  padding: 20px;
+  background-color: #424C52;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 8px #424C52;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.link a:hover {
+  text-decoration: none;
+  color: #F5913E;
+}
+
