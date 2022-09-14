@@ -1,9 +1,22 @@
 import React from 'react';
 
+const HomeStyle = {
+  width: '70%',
+  margin: 'auto',
+  transform: 'translateY(120px)',
+  textAlign: 'justify',
+};
+
+const HeaderStyle = {
+  textAlign: 'center',
+  margin: '20px',
+  color: '#f5913e',
+};
+
 const Home = () => (
   <>
-    <main>
-      <header>
+    <main style={HomeStyle}>
+      <header style={HeaderStyle}>
         <h2>Welcome to Our Page </h2>
       </header>
       <p>
