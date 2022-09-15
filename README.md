@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://promzzykoncepts.github.io/Math-Magician/)
+[Live Demo Link](https://mathmag.netlify.app/calculator)
 
 <img src = "./Math-magician-react.png" alt="Calculator" width="500px"/>.
 
