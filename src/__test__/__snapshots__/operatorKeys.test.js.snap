@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NumericKeys correctly 1`] = `
+Array [
+  <button
+    className="btn btn-top"
+    type="button"
+  >
+    AC
+  </button>,
+  <button
+    className="btn btn-top"
+    type="button"
+  >
+    +/-
+  </button>,
+  <button
+    className="btn btn-top"
+    type="button"
+  >
+    %
+  </button>,
+  <button
+    className="btn btn-side"
+    type="button"
+  >
+    ÷
+  </button>,
+  <button
+    className="btn btn-side"
+    type="button"
+  >
+    x
+  </button>,
+  <button
+    className="btn btn-side"
+    type="button"
+  >
+    -
+  </button>,
+  <button
+    className="btn btn-side"
+    type="button"
+  >
+    +
+  </button>,
+  <button
+    className="btn btn-side"
+    type="button"
+  >
+    =
+  </button>,
+]
+`;
