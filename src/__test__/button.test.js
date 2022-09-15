@@ -1,7 +1,5 @@
-
 import { screen, fireEvent, render } from '@testing-library/react';
 import NumberKeys from '../components/numericKeys';
-
 
 test('Testing onClick events', () => {
   render(<NumberKeys />);
@@ -20,7 +18,7 @@ test('Testing onClick events', () => {
   render(<NumberKeys />);
   const fireFullStop = screen.getByTestId('five');
   fireEvent.click(fireFullStop);
-  expect(screen.getByTestId('five')).toHaveTextContent(5);
+  expect(screen.getByTestId('five')).toHaveTextContent('5');
 });
 test('Testing onClick events', () => {
   render(<NumberKeys />);
@@ -32,5 +30,5 @@ test('Testing onClick events', () => {
   render(<NumberKeys />);
   const fireFullStop = screen.getByTestId('three');
   fireEvent.click(fireFullStop);
-  expect(screen.getByTestId('three')).toHaveTextContent(3);
+  expect(screen.getByTestId('three')).toHaveTextContent('3');
 });
