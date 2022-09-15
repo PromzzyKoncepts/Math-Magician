@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NumericKeys correctly 1`] = `
+<div
+  className="numbers"
+>
+  <button
+    className="btn btn-primary"
+    data-testid="seven"
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="eight"
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="nine"
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="four"
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="five"
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="six"
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="one"
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="two"
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="three"
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="btn btn-primary col-span-2"
+    data-testid="zero"
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="btn btn-primary"
+    data-testid="full-stop"
+    type="button"
+  >
+    .
+  </button>
+</div>
+`;
