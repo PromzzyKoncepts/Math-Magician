@@ -8,7 +8,7 @@ describe('Testing logic components' ,() => {
             next : 6,
             operation : null
         };
-        const value = {total : 3, next :null, operation:'+'};
-        expect(calculate(data,'+').toEqual(value));
+        const value = {total : 6, next :null, operation:'+'};
+        expect(calculate(data,'+')).toEqual(value);
     })
 })
